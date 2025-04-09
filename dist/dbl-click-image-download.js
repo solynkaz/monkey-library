@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Fast Image Downloader on Double Click
 // @namespace    http://tampermonkey.net/
-// @version      0.2
+// @version      0.3
 // @description  Double-click any image on any site to download it in source quality
 // @author       solynkaz
 // @match        *://*/*
