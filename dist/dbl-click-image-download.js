@@ -1,7 +1,7 @@
 // ==UserScript==
 // @name         Fast Image Downloader on Double Click
 // @namespace    https://github.com/solynkaz
-// @version      0.4
+// @version      0.5
 // @description  Double-click any image on any site to download it in source quality
 // @author       solynkaz
 // @match        *://*/*
@@ -62,7 +62,6 @@
     e.stopPropagation();
   }
 
-  // Add listeners to all existing and future images
   function addListenersToImages() {
     document.querySelectorAll('img').forEach(img => {
       if (!img.dataset.fastDownloadAttached) {
